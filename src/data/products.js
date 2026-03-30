@@ -1,0 +1,98 @@
+export const products = [
+  {
+    id: 1,
+    name: { en: "Golden Silk Blouse", es: "Blusa de Seda Dorada" },
+    description: {
+      en: "Luxurious golden silk blouse with elegant V-neckline and flowing sleeves.",
+      es: "Lujosa blusa de seda dorada con elegante escote en V y mangas fluidas.",
+    },
+    price: 189.0,
+    category: "blouses",
+    image: "/images/silk_blouse_gold.png",
+    featured: true,
+  },
+  {
+    id: 2,
+    name: { en: "Crimson Evening Dress", es: "Vestido de Noche Carmesí" },
+    description: {
+      en: "Stunning red silk evening dress with flowing silhouette and spaghetti straps.",
+      es: "Impresionante vestido de noche de seda roja con silueta fluida y tirantes finos.",
+    },
+    price: 349.0,
+    category: "dresses",
+    image: "/images/silk_dress_red.png",
+    featured: true,
+  },
+  {
+    id: 3,
+    name: { en: "Emerald Silk Scarf", es: "Pañuelo de Seda Esmeralda" },
+    description: {
+      en: "Elegant emerald green silk scarf, perfect for any occasion.",
+      es: "Elegante pañuelo de seda esmeralda, perfecto para cualquier ocasión.",
+    },
+    price: 89.0,
+    category: "scarves",
+    image: "/images/silk_scarf_green.png",
+    featured: true,
+  },
+  {
+    id: 4,
+    name: { en: "Navy Silk Shirt", es: "Camisa de Seda Azul Marino" },
+    description: {
+      en: "Premium navy blue silk shirt with a crisp tailored fit.",
+      es: "Camisa de seda azul marino premium con corte impecable.",
+    },
+    price: 159.0,
+    category: "shirts",
+    image: "/images/silk_shirt_navy.png",
+    featured: true,
+  },
+  {
+    id: 5,
+    name: { en: "Pearl White Blouse", es: "Blusa Blanca Perla" },
+    description: {
+      en: "Classic white silk blouse with delicate button details and bishop sleeves.",
+      es: "Blusa clásica de seda blanca con detalles de botones delicados y mangas abullonadas.",
+    },
+    price: 169.0,
+    category: "blouses",
+    image: "/images/silk_blouse_white.png",
+    featured: false,
+  },
+  {
+    id: 6,
+    name: { en: "Midnight Silk Gown", es: "Vestido de Seda Medianoche" },
+    description: {
+      en: "Sophisticated navy silk evening gown with elegant draping.",
+      es: "Sofisticado vestido de noche de seda azul marino con drapeado elegante.",
+    },
+    price: 429.0,
+    category: "dresses",
+    image: "/images/silk_dress_navy.png",
+    featured: false,
+  },
+  {
+    id: 7,
+    name: { en: "Burgundy Silk Scarf", es: "Pañuelo de Seda Burdeos" },
+    description: {
+      en: "Rich burgundy silk scarf with a luxurious hand feel.",
+      es: "Rico pañuelo de seda burdeos con un tacto lujoso.",
+    },
+    price: 79.0,
+    category: "scarves",
+    image: "/images/silk_scarf_burgundy.png",
+    featured: false,
+  },
+  {
+    id: 8,
+    name: { en: "Ivory Silk Shirt", es: "Camisa de Seda Marfil" },
+    description: {
+      en: "Elegant ivory silk shirt with mandarin collar and refined finish.",
+      es: "Elegante camisa de seda marfil con cuello mandarín y acabado refinado.",
+    },
+    price: 149.0,
+    category: "shirts",
+    image: "/images/silk_shirt_ivory.png",
+    featured: false,
+  },
+];

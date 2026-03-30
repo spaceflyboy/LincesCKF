@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #f0f3f7;
+  --color-navy-100: #d9e0ea;
+  --color-navy-200: #b3c1d5;
+  --color-navy-300: #8da2c0;
+  --color-navy-400: #6783ab;
+  --color-navy-500: #416496;
+  --color-navy-600: #344f78;
+  --color-navy-700: #273b5a;
+  --color-navy-800: #1a2332;
+  --color-navy-900: #0d1119;
+  --color-gold-50: #fdf8ef;
+  --color-gold-100: #f9edcf;
+  --color-gold-200: #f0d69f;
+  --color-gold-300: #e7bf6f;
+  --color-gold-400: #dea83f;
+  --color-gold-500: #c9973f;
+  --color-gold-600: #a67b33;
+  --color-gold-700: #835f27;
+  --color-gold-800: #60431b;
+  --color-gold-900: #3d270f;
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1a2332;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f3f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b3c1d5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8da2c0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.modal-backdrop {
+  background: rgba(13, 17, 25, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #dea83f, #c9973f);
+  transition: all 0.3s ease;
+}
+.btn-gold:hover {
+  background: linear-gradient(135deg, #e7bf6f, #dea83f);
+  box-shadow: 0 4px 15px rgba(201, 151, 63, 0.4);
+  transform: translateY(-1px);
+}
+
+.product-card {
+  transition: all 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(26, 35, 50, 0.12);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
