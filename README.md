@@ -2,11 +2,17 @@
 
 **Course:** CSE 5335 | Spring 2026  
 **Phase:** 2 (Front-end Architecture & Client-Side Application)  
+**Contributors:** 
+Gadeela, Ashrith - 1002315579
+Kachhia, Nisarg - 1002265218
+Helm, Dustan - 1002091132
+FaizaanUllah, Shaik - 1002324031
+Inaganti, Sai Satvik - 1002286003
 **Live Deployment:** [https://dbh1132.uta.cloud/](https://dbh1132.uta.cloud/)
 
 Welcome to the Phase 2 deliverable for the Linces'CKF E-Commerce Platform. This repository contains the complete, deployable front-end application. It has been designed to meet and exceed all Phase 2 requirements, establishing a clean, modular interface architecture prior to backend integration in Phase 3.
 
-## 🎯 Key Achievements & Features
+## Key Achievements & Features
 
 - **Comprehensive UI Implementation:** Successfully engineered 11 fully responsive pages and 7 modular UI components leveraging React 19 and Vite.
 - **Responsive & Modern Design:** Developed using a mobile-first approach with Tailwind CSS. The application provides seamless, aesthetic layouts across mobile, tablet, and widescreen desktop viewports.
@@ -14,7 +20,7 @@ Welcome to the Phase 2 deliverable for the Linces'CKF E-Commerce Platform. This 
 - **Form Validation & UX:** Incorporates strict client-side validation logic across all contact and order forms, offering instant user feedback.
 - **Internationalization (i18n):** Features a fully functional language switcher, seamlessly toggling the entire interface between English and Spanish.
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```text
 phase2/
@@ -35,7 +41,7 @@ phase2/
 └── vite.config.js          # Build tool configuration (Vite)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 To run the application locally, please ensure that you have **Node.js (v18 or higher)** installed on your system.
 
