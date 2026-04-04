@@ -10,6 +10,12 @@ export const products = [
     category: "blouses",
     image: "/images/silk_blouse_gold.png",
     featured: true,
+    sizes: ["XS", "S", "M", "L", "XL"],
+    reviews: [
+      { author: "Sophia M.", rating: 5, comment: "Absolutely stunning! The fabric feels incredibly luxurious. I wore it to a gala and received so many compliments." },
+      { author: "Claire D.", rating: 4, comment: "Beautiful blouse — the color is even richer in person. Sizing runs slightly slim, I'd recommend going up one size." },
+      { author: "Natasha R.", rating: 5, comment: "Worth every penny. The craftsmanship is impeccable and it drapes so elegantly." },
+    ],
   },
   {
     id: 2,
@@ -22,6 +28,12 @@ export const products = [
     category: "dresses",
     image: "/images/silk_dress_red.png",
     featured: true,
+    sizes: ["XS", "S", "M", "L", "XL"],
+    reviews: [
+      { author: "Isabella C.", rating: 5, comment: "This dress is showstopping. Wore it to my sister's wedding and felt like royalty all night." },
+      { author: "Mia T.", rating: 5, comment: "The silk is buttery smooth and the color is a gorgeous, deep crimson. True to size." },
+      { author: "Amelia B.", rating: 4, comment: "Elegant and timeless. The straps are delicate but secure. A must-have for any formal occasion." },
+    ],
   },
   {
     id: 3,
@@ -34,6 +46,12 @@ export const products = [
     category: "scarves",
     image: "/images/silk_scarf_green.png",
     featured: true,
+    sizes: ["One Size"],
+    reviews: [
+      { author: "Olivia P.", rating: 5, comment: "The color is absolutely vibrant and the silk is so soft. I use it as a headscarf, around my neck, and even tied to my bag." },
+      { author: "Emma L.", rating: 4, comment: "Great quality for the price. Very versatile — I've styled it a dozen different ways." },
+      { author: "Sarah K.", rating: 5, comment: "A perfect gift. Came beautifully packaged and the recipient was overjoyed." },
+    ],
   },
   {
     id: 4,
@@ -46,6 +64,12 @@ export const products = [
     category: "shirts",
     image: "/images/silk_shirt_navy.png",
     featured: true,
+    sizes: ["XS", "S", "M", "L", "XL"],
+    reviews: [
+      { author: "James W.", rating: 5, comment: "Sharp, sophisticated, and incredibly comfortable. This shirt elevates any outfit instantly." },
+      { author: "Daniel F.", rating: 4, comment: "Beautiful fabric and construction. I wore it to a business dinner and got several compliments." },
+      { author: "Michael H.", rating: 5, comment: "The tailored fit is perfect. Not too slim, not boxy. The navy is a rich, deep hue — very classy." },
+    ],
   },
   {
     id: 5,
@@ -58,6 +82,12 @@ export const products = [
     category: "blouses",
     image: "/images/silk_blouse_white.png",
     featured: false,
+    sizes: ["XS", "S", "M", "L", "XL"],
+    reviews: [
+      { author: "Grace Y.", rating: 5, comment: "A wardrobe staple. The bishop sleeves give it such a romantic, editorial feel." },
+      { author: "Hannah V.", rating: 4, comment: "Really lovely blouse. The pearl-white silk has a beautiful sheen. I style it with wide-leg trousers." },
+      { author: "Zoe A.", rating: 5, comment: "Timeless and elegant. The button detail is subtle but adds so much character." },
+    ],
   },
   {
     id: 6,
@@ -70,6 +100,12 @@ export const products = [
     category: "dresses",
     image: "/images/silk_dress_navy.png",
     featured: false,
+    sizes: ["XS", "S", "M", "L", "XL"],
+    reviews: [
+      { author: "Victoria N.", rating: 5, comment: "Breathtaking. The draping is masterful and the silk flows beautifully when you walk." },
+      { author: "Charlotte E.", rating: 5, comment: "Worthy of a red carpet. I wore it to a formal gala and felt absolutely radiant." },
+      { author: "Luna S.", rating: 4, comment: "Stunning gown with impeccable finishing. Arrived quickly and was packaged with real care." },
+    ],
   },
   {
     id: 7,
@@ -82,6 +118,12 @@ export const products = [
     category: "scarves",
     image: "/images/silk_scarf_burgundy.png",
     featured: false,
+    sizes: ["One Size"],
+    reviews: [
+      { author: "Rose T.", rating: 5, comment: "The burgundy is so rich and deep. I layer it over a camel coat in winter and it's the perfect pop of color." },
+      { author: "Anna G.", rating: 4, comment: "Soft, smooth, and the color doesn't fade. Very impressed with the quality at this price point." },
+      { author: "Lily M.", rating: 5, comment: "Bought this as a gift and my friend absolutely loved it. Gorgeous color and quality." },
+    ],
   },
   {
     id: 8,
@@ -94,5 +136,11 @@ export const products = [
     category: "shirts",
     image: "/images/silk_shirt_ivory.png",
     featured: false,
+    sizes: ["XS", "S", "M", "L", "XL"],
+    reviews: [
+      { author: "Lucas B.", rating: 5, comment: "The mandarin collar is a brilliant design choice. Sleek, modern, and effortlessly refined." },
+      { author: "Noah C.", rating: 4, comment: "Excellent quality. The ivory is a warm, creamy tone — not stark white. Very versatile piece." },
+      { author: "Ethan R.", rating: 5, comment: "Wore this to a gallery opening and it was a talking point all evening. Simply beautiful." },
+    ],
   },
 ];
