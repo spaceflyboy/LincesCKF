@@ -184,7 +184,7 @@ export const translations = {
     footer: {
       catalog: "Catalog",
       followUs: "Follow Us",
-      rights: "© 2024 Linces'CKF. All rights reserved.",
+      rights: "© 2026 Linces'CKF. All rights reserved.",
     },
   },
   es: {
@@ -378,7 +378,7 @@ export const translations = {
     footer: {
       catalog: "Catálogo",
       followUs: "Síguenos",
-      rights: "© 2024 Linces'CKF. Todos los derechos reservados.",
+      rights: "© 2026 Linces'CKF. Todos los derechos reservados.",
     },
   },
 };
