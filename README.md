@@ -4,15 +4,15 @@
 **Phase:** 2 (Front-end Architecture & Client-Side Application)  
 **Contributors:**
     <br>
-    Gadeela, Ashrith - 1002315579
+    - **Gadeela, Ashrith** - 1002315579
     <br>
-    Kachhia, Nisarg - 1002265218
+    - **Kachhia, Nisarg** - 1002265218
     <br>
-    Helm, Dustan - 1002091132
+    - **Helm, Dustan** - 1002091132
     <br>
-    FaizaanUllah, Shaik - 1002324031
+    - **FaizaanUllah, Shaik** - 1002324031
     <br>
-    Inaganti, Sai Satvik - 1002286003
+    - **Inaganti, Sai Satvik** - 1002286003
     <br>
 **Live Deployment:** [https://dbh1132.uta.cloud/](https://dbh1132.uta.cloud/)
 
