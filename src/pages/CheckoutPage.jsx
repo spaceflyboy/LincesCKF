@@ -128,6 +128,11 @@ export default function CheckoutPage() {
                     <p className="text-sm text-navy-400">
                       ${item.price.toFixed(2)}
                     </p>
+                    {item.selectedSize && (
+                      <p className="text-xs text-navy-300 mt-0.5">
+                        Size: <span className="font-medium text-navy-500">{item.selectedSize}</span>
+                      </p>
+                    )}
                   </div>
                   <div className="flex items-center gap-2">
                     <button
