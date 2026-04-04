@@ -2,12 +2,18 @@
 
 **Course:** CSE 5335 | Spring 2026  
 **Phase:** 2 (Front-end Architecture & Client-Side Application)  
-**Contributors:** 
+**Contributors:**
+    <br>
     Gadeela, Ashrith - 1002315579
+    <br>
     Kachhia, Nisarg - 1002265218
+    <br>
     Helm, Dustan - 1002091132
+    <br>
     FaizaanUllah, Shaik - 1002324031
+    <br>
     Inaganti, Sai Satvik - 1002286003
+    <br>
 **Live Deployment:** [https://dbh1132.uta.cloud/](https://dbh1132.uta.cloud/)
 
 Welcome to the Phase 2 deliverable for the Linces'CKF E-Commerce Platform. This repository contains the complete, deployable front-end application. It has been designed to meet and exceed all Phase 2 requirements, establishing a clean, modular interface architecture prior to backend integration in Phase 3.
