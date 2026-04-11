@@ -1,4 +1,4 @@
-# Linces'CKF E-Commerce Platform — Phase 2 Deliverable
+# Linces'CKF E-Commerce Platform
 
 **Course:** CSE 5335 | Spring 2026  
 **Phase:** 2 (Front-end Architecture & Client-Side Application)  
