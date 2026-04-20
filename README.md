@@ -2,7 +2,7 @@
 
 A full-stack e-commerce application for luxury silk garments built with React (Vite) frontend and Node.js/Express/MySQL backend.
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React 19 + Vite 8
@@ -17,13 +17,13 @@ A full-stack e-commerce application for luxury silk garments built with React (V
 - Socket.IO (real-time chat)
 - MVC Architecture
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v18+)
 - MySQL Server
 - npm
 
-## 🗄️ Database Setup
+## Database Setup
 
 1. Start your MySQL server
 2. Run the schema file to create the database, tables, and seed data:
@@ -41,7 +41,7 @@ This will create:
 - 10 tables with proper primary/foreign keys
 - Seed data: 4 categories, 8 products, 24 reviews, 1 demo user
 
-## 🚀 Running the Application
+## Running the Application
 
 ### One command on your PC (recommended)
 
@@ -104,16 +104,6 @@ The React app calls the API at `http://localhost:5001` by default. For deploymen
 VITE_API_ORIGIN=https://your-api-host.example.com
 ```
 
-(No trailing slash.) Real-time chat uses the same origin via Socket.IO.
-
-## 🔐 Login Credentials
-
-| Account | Email | Password |
-|---------|-------|----------|
-| Demo User | demo@lincesckf.com | password123 |
-
-Or register a new account through the app.
-
 ## 📡 API Endpoints
 
 ### Authentication
@@ -152,7 +142,7 @@ Or register a new account through the app.
 ### Chat
 - Socket.IO on the same host/port as the API (see `VITE_API_ORIGIN` / default `http://localhost:5001`)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lincesckf/
@@ -176,7 +166,7 @@ lincesckf/
 └── package.json          # Frontend dependencies
 ```
 
-## ✅ Features
+## Features
 
 - **Dynamic Data**: All data fetched from MySQL (no hardcoding)
 - **Authentication**: JWT-based login/register
