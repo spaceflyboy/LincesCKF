@@ -1,6 +1,12 @@
 # Linces'CKF – Luxury Silk E-Commerce
-
 A full-stack e-commerce application for luxury silk garments built with React (Vite) frontend and Node.js/Express/MySQL backend.
+
+## Contributors
+- **Gadeela, Ashrith** - 1002315579
+- **Kachhia, Nisarg** - 1002265218
+- **Helm, Dustan** - 1002091132
+- **FaizaanUllah, Shaik** - 1002324031
+- **Inaganti, Sai Satvik** - 1002286003
 
 ## Tech Stack
 
